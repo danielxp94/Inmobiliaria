@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Estilos generales */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /* Agregar espacios en lugar de margen derecho */
+}
+
+header img {
+    width: 20rem;
+    height: auto;
+}
+
+.menu {
+    text-align: right;
+}
+
+/* Enlaces en el menú */
+.logo, .inicio, .nosotros, .anuncios, .blog, .contacto {
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background-image: url(../Img/Fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-size: 100% 100%;
+    text-align: left;
+    position: relative;
+    height: 100vh;
+    min-height: 50rem;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.contenedor h1 {
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem; /* Ajuste para dejar espacio desde el borde izquierdo */
+}
+
+.titulo-central {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.contenedor-medio img {
+width: 10%;
+height: auto;
+}
+
+/* Divs de seguridad, dinero y reloj */
+.seguridad, .dinero, .reloj {
+    display: inline-block;
+    width: calc(33.33% - 10px);
+    vertical-align: top;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Eliminar margen derecho del último div */
+.dinero:last-child {
+    margin-right: 0;
+}
+
+/* Estilos para h2 dentro de .venta */
+.venta h2 {
+      text-align: center;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.casas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.casa-uno {
+    flex: 1; 
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.casa-uno {
+    margin-right: 1rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.casa-dos {
+    flex: 1;
+    margin-right: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.casa-uno img {
+    width: 60%;
+}
+
+.casa-dos img {
+    width: 78%;
+}
+
+.casa-uno .casa-dos {
+    flex: 1;
+    display: flex;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.casa-uno img, .casa-dos img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.casa-uno h3, .casa-dos h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+
+.casa-uno p, .casa-dos p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+
+.casa-uno a, .casa-dos a {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+
+
+.contactar {
+background-image: url(../Img/fondo\ 2.jpeg);
+background-size: cover;
+    background-position: center center;
+    background-size: 100% 100%;
+    text-align: left;
+    position: relative;
+    height: 120vh;
+    min-height: 40rem;
+    padding: 0;
+    margin: 0;
+    border: none;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left; 
+}
+
+.contactar p {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    margin: 1rem 0;
+    display: block;
+    padding-top: 27rem;
+    padding-left: 2rem;
+}
+
+.contactar a {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 1rem 1.5rem; 
+    padding-left: 2rem;
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+.footer-navegacion {
+    flex: 1;
+}
+
+.footer-navegacion a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+.copyright {
+    text-align: right;
+    flex: 0;
+    margin-left: 105rem;
+}
